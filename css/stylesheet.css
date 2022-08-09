@@ -71,7 +71,20 @@ footer {
   margin: 2rem;
   height: auto;
   padding-top: 0.5rem;
+  animation-name: animationicons;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
         }
+
+@keyframes animationicons {
+  0%   {border-radius: 0%;}
+  25%  {border-radius: 100%;
+        transform: rotate(90deg);}
+  50%  {background-color: blue;
+        transform: rotate(180deg);}
+  100% {background-color: gold;
+        transform: rotate(360deg);}
+                            }
 h2 {
   display: block;
   font-size: 1.5em;

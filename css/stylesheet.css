@@ -45,6 +45,7 @@ footer {
 #navbar {
   color: white;
   font-weight: bold;
+  background-image: ("imagestestpic.jpg");
   background-color: #45462A;
   width: 20%;
   padding: 1rem;

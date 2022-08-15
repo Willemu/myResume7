@@ -21,6 +21,9 @@ body {
 footer {
   padding: 1rem;
   background-color: #343330;
+  background-image: url(../images/plain_blue_background.jpg);
+  background-size: cover;
+  background-position: center;
   text-align: center;
   color: white;
   justify-content: center;
@@ -29,12 +32,12 @@ footer {
 
 #heading {
   font-family: sans-serif;
-  background-image: url(../images/header_tech_image.jpg);
+  background-image: url(../images/plain_blue_background.jpg);
   background-size: cover;
   background-position: center;
   background-color: #343330;
   padding: 1rem;
-  color: black;
+  color: white;
           }
 
 #profilephoto {
@@ -46,9 +49,9 @@ footer {
                }
 
 #navbar {
-  color: white;
+  color: black;
   font-weight: bold;
-  background-image: url(../images/balacingact.png);
+  background-image: url(../images/silver_pilar_background.jpg);
   background-size: cover;
   background-position: center;
   background-color: #45462A;
@@ -93,7 +96,7 @@ footer {
                             }
 
 :hover {
-  color: #D1603D;
+  color: black;
         }
 
 h2 {

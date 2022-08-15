@@ -45,10 +45,12 @@ footer {
 #navbar {
   color: white;
   font-weight: bold;
-  background-image: ("imagestestpic.jpg");
+  background-image: url(../images/balacingact.png);
+  background-size: cover;
+  background-position: center;
   background-color: #45462A;
   width: 20%;
-  padding: 1rem;
+  padding: 2rem;
          }
 
 .navlist {

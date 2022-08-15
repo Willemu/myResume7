@@ -29,9 +29,12 @@ footer {
 
 #heading {
   font-family: sans-serif;
+  background-image: url(../images/header_tech_image.jpg);
+  background-size: cover;
+  background-position: center;
   background-color: #343330;
   padding: 1rem;
-  color: white;
+  color: black;
           }
 
 #profilephoto {
@@ -50,7 +53,7 @@ footer {
   background-position: center;
   background-color: #45462A;
   width: 20%;
-  padding: 2rem;
+  padding: 3rem;
          }
 
 .navlist {

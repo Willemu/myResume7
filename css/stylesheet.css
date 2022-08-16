@@ -78,6 +78,7 @@ footer {
 .navlist {
   color: white;
   list-style-type: none;
+  padding-left: 0%;
           }
 
 /*comment*/
@@ -175,4 +176,45 @@ ul {
    
 .imglink1 {
   text-decoration: none !important;
-            }      
+            } 
+            
+/*Testing the effect on adding the image tag in css for responsive
+ design. Can also add the max widht property = scale the image up 
+ to the max of its actual sixe - when it reached it max resolution
+  it will stop scalling. It is better to use the max-width property
+  to limit to the image size, otherwise the image gets distorted. 
+  Font size can aslo be made smaller to adapt to smaller browsers 
+  by using the following html insert - 
+  <h1 style="font-size:10vw">Hello World</h1>  */
+
+img {
+  width: 100%;
+}
+
+/* Media Queries - 
+If an id and a class is applied in the same line the id will 
+always take preference.
+Media queries are always displayed at the bottom of the css*/
+
+/*code for mobile devices smaller than 600px*/
+body { background-color: blue; }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   body { background-color: red; }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   body { background-color: green; }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   body { background-color: yellow; }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   body { background-color: orange; }
+}

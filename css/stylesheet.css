@@ -199,26 +199,26 @@ Below is a media query that changes the color of the body to demonstrate
 device size changes*/
 
 /*code for mobile devices smaller than 600px*/
-body { background-color: blue; }
+body { background-color: gray; }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-   body { background-color: red; }
+   body { background-color: grey; }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-   body { background-color: green; }
+   body { background-color: silver; }
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-   body { background-color: yellow; }
+   body { background-color: lightblue; }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-   body { background-color: orange; }
+   body { background-color: whitesmoke; }
 }
 
 /* Following the addition of the css grid content to the html

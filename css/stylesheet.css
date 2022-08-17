@@ -220,3 +220,30 @@ body { background-color: blue; }
 @media only screen and (min-width: 1200px) {
    body { background-color: orange; }
 }
+
+/* Following the addition of the css grid content to the html
+you load the css components starting with the grid-container 
+label to link it to the html*/
+
+/*Important to specify a size for each column*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+/*Now select all the divs that are children of the class
+The grid template columns determines your layout and can be
+replaced by a percentage as well i.e. auto auto 30% or 5px*/
+
+.grid-container > div {
+  font-family: sans-serif;
+  font: size 1.5em;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}

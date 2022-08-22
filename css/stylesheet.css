@@ -246,4 +246,53 @@ replaced by a percentage as well i.e. auto auto 30% or 5px*/
   text-align: center;
   padding: 20px;
   font-size: 20px;
+                        }
+
+/*Now by using media quries you can style your grid
+ and make sure is has logic to follow when the device
+  sizes changes*/
+
+ @media screen and (max-width:768px) {
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+ } 
+ 
+ .item6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+ }
+
+ .item5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+ }
+
+ @media screen and (max-width:550px) {
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+ } 
+ 
+ .item6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+ }
+
+ .item5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+ }
+
+ @media screen and (max-width:375px) {
+  .grid-container > div {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
 }

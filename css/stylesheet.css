@@ -231,7 +231,7 @@ label to link it to the html*/
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  background-color: black;
+  background-color: grey;
   padding: 10px;
 }
 
@@ -252,6 +252,8 @@ replaced by a percentage as well i.e. auto auto 30% or 5px*/
  and make sure is has logic to follow when the device
   sizes changes*/
 
+/* large screens*/
+
  @media screen and (max-width:768px) {
   .item1 {
     grid-row-start: 1;
@@ -268,7 +270,8 @@ replaced by a percentage as well i.e. auto auto 30% or 5px*/
 }
 }
  
- 
+/* medium screens*/
+
  @media screen and (max-width:550px) {
   .item1 {
     grid-row-start: 1;
@@ -287,6 +290,7 @@ replaced by a percentage as well i.e. auto auto 30% or 5px*/
   grid-column-end: 3;
  }
 } 
+/*small screens*/
 
 @media screen and (max-width:375px) {
   .grid-container > div{

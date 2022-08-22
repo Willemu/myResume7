@@ -255,44 +255,42 @@ replaced by a percentage as well i.e. auto auto 30% or 5px*/
  @media screen and (max-width:768px) {
   .item1 {
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 2;
   }
- } 
  
  .item6 {
+  grid-row-start: 2;
+  grid-row-end: 3;
   grid-column-start: 1;
+  grid-column-end: 2;
+}
+}
+ 
+ 
+ @media screen and (max-width:550px) {
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+ 
+ .item6 {
+  grid-column-start: 3;
   grid-column-end: 4;
  }
 
  .item5 {
   grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-end: 3;
  }
+} 
 
- @media screen and (max-width:550px) {
-  .item1 {
-    grid-row-start: 1;
-    grid-row-end: 3;
+@media screen and (max-width:375px) {
+  .grid-container > div{
     grid-column-start: 1;
-    grid-column-end: 2;
-  }
- } 
- 
- .item6 {
-  grid-column-start: 1;
-  grid-column-end: 4;
- }
-
- .item5 {
-  grid-column-start: 3;
-  grid-column-end: 4;
- }
-
- @media screen and (max-width:375px) {
-  .grid-container > div {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
   }
 }
